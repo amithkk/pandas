@@ -46,8 +46,8 @@ jobs:
     - name: Build Pandas
       uses: ./.github/actions/build_pandas
 
-    - name: Build website
-      run: python web/pandas_web.py web/pandas --target-path=web/build
+#    - name: Build website
+#      run: python web/pandas_web.py web/pandas --target-path=web/build
 
     - name: Build documentation
       run: doc/make.py --warnings-are-errors
